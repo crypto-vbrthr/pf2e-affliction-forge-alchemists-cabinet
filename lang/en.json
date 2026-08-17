@@ -1,0 +1,563 @@
+{
+  "PF2E_AFFLICTION_AC": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Alchemist's Cabinet",
+      "Library": "Alchemist's Cabinet",
+      "LibraryDescription": "Original alchemical poisons, laboratory diseases, and experimental afflictions with semantic Creature Forge tags.",
+      "SyncFailed": "Alchemist's Cabinet could not synchronize its library. See console."
+    },
+    "Content": {
+      "blinding-lime": {
+        "Name": "Blinding Lime",
+        "Description": "A finely milled alkaline laboratory powder that irritates eyes and airways and is often scattered from breakable ampoules in the field.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d4 poison damage, Dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d4 poison damage, Sickened 1, Dazzled."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Sickened 1, Dazzled."
+        }
+      },
+      "numbtongue-tonic": {
+        "Name": "Numbtongue Tonic",
+        "Description": "A bitter tonic that first numbs the tongue, then speech and clear thought. In small doses it was originally developed as an analgesic additive.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Stupefied 1. You cannot speak."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: Stupefied 2. You cannot speak."
+        }
+      },
+      "copperbite-paste": {
+        "Name": "Copperbite Paste",
+        "Description": "A green-sheened weapon paste whose metallic salts attack nerves and balance once they enter a wound.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1, Sickened 1."
+        }
+      },
+      "sombercap-distillate": {
+        "Name": "Sombercap Distillate",
+        "Description": "A concentrated fungal extract that induces fatigue and mental sluggishness. The undiluted version is notorious among unscrupulous tavern mixers.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Fatigued, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: Slowed 1, Stupefied 1."
+        }
+      },
+      "emberglass-coating": {
+        "Name": "Emberglass Coating",
+        "Description": "This transparent weapon coating crystallizes in a wound and releases sharply reactive heat there.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 fire damage, 1d4 persistent fire damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 fire damage, 1d4 persistent fire damage, Clumsy 1."
+        }
+      },
+      "hushmist-ampoule": {
+        "Name": "Hushmist Ampoule",
+        "Description": "When shattered, the ampoule releases a heavy gray mist that swells the throat and turns even a shout into a hoarse effort.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1. You cannot speak."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 1d6 poison damage, Sickened 2. You cannot speak."
+        }
+      },
+      "nerve-lacquer": {
+        "Name": "Nerve-Lacquer",
+        "Description": "A thin black lacquer for blades and missiles that rapidly destroys fine motor control and at high doses slows entire movement patterns.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 1d6 poison damage, Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "verdigris-fever": {
+        "Name": "Verdigris Fever",
+        "Description": "A chronic poisoning caused by poorly stabilized alchemical metal compounds. Workshops with aging stills can expose entire crews to it.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 1d6 poison damage, Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Sickened 2, Drained 1."
+        }
+      },
+      "blackout-resin": {
+        "Name": "Blackout Resin",
+        "Description": "A sticky weapon poison that makes sensory processing and memory blur into brief black gaps.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 5 flat check.",
+          "Gate": "Alchemical concentration interference"
+        }
+      },
+      "mutagen-bloom": {
+        "Name": "Mutagen Bloom",
+        "Description": "A failed mutagen can persist as an iridescent film and trigger uncontrolled physical changes on contact.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: Clumsy 1, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Clumsy 2, Sickened 1."
+        }
+      },
+      "ghostsalt-injection": {
+        "Name": "Ghostsalt Injection",
+        "Description": "This injectable solution contains occult-treated salts that draw vital essence from the body while poisoning the flesh.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage, 1d4 spirit damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, 1d6 spirit damage, Drained 1."
+        }
+      },
+      "smokeserpent-compound": {
+        "Name": "Smokeserpent Compound",
+        "Description": "With this weapon poison, alchemists imitate the rapid paralysis of exotic snake venoms without requiring a living source.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Clumsy 1, Slowed 1."
+        }
+      },
+      "marrow-solvent": {
+        "Name": "Marrow Solvent",
+        "Description": "A corrosive weapon toxin that keeps reacting after entering tissue, attacking muscle and the surface of bone.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 acid damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 acid damage, 1d6 persistent acid damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 acid damage, 1d6 persistent acid damage, Enfeebled 1."
+        }
+      },
+      "glasslung-culture": {
+        "Name": "Glasslung Culture",
+        "Description": "A cultivated alchemical spore strain settles in the lungs like fine dust and makes healing the inflamed tissue increasingly difficult.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Sickened 1, Fatigued."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 2d6 poison damage, Sickened 2, Drained 1. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "clockwork-bile": {
+        "Name": "Clockwork Bile",
+        "Description": "An electrically charged lubricant and etching mixture from automaton laboratories. It is as unfriendly to organic bodies as it is to poorly insulated constructs.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 electricity damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 electricity damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 electricity damage, Clumsy 2, Slowed 1."
+        }
+      },
+      "bloodbreaker-serum": {
+        "Name": "Bloodbreaker Serum",
+        "Description": "This red weapon solution disrupts blood production, causing even small injuries to drain the body with unusual severity.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Drained 2."
+        }
+      },
+      "prism-toxin": {
+        "Name": "Prism Toxin",
+        "Description": "An arcane-stabilized weapon poison whose shifting crystals release different elemental discharges with each reaction.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 2d6 poison damage, 1d6 electricity damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, 1d6 fire damage, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, 1d6 cold damage, Clumsy 2."
+        }
+      },
+      "mimic-spore-suspension": {
+        "Name": "Mimic-Spore Suspension",
+        "Description": "This suspension forces cultivated spores into aggressive growth and makes infected tissue imitate foreign structures.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 2d6 poison damage, Sickened 1, Clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 3d6 poison damage, Sickened 2, Clumsy 1, Drained 1."
+        }
+      },
+      "kingmaker-poison": {
+        "Name": "Kingmaker Poison",
+        "Description": "A discreet court poison for envenomed blades. It first weakens the muscles, then attacks vitality itself.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Enfeebled 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, Enfeebled 2, Drained 1."
+        }
+      },
+      "red-tide-reagent": {
+        "Name": "Red Tide Reagent",
+        "Description": "A blood-red reagent absorbed through skin or food that drives the circulatory system toward feverish collapse.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, Sickened 2, Drained 1."
+        }
+      },
+      "nullsilver-catalyst": {
+        "Name": "Nullsilver Catalyst",
+        "Description": "A weapon coating of silvered salts and arcane inhibitors that disrupts thought and concentration as reliably as nerves.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 3d6 mental damage, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 mental damage, Stupefied 1. Concentrate actions require a DC 7 flat check.",
+          "Gate": "Alchemical concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 mental damage, Stupefied 2, Slowed 1. Concentrate actions require a DC 7 flat check.",
+          "Gate": "Alchemical concentration interference"
+        }
+      },
+      "marrowfire-plague": {
+        "Name": "Marrowfire Plague",
+        "Description": "A deliberately cultivated laboratory disease whose reaction generates heat in the marrow and hinders recovery of the damaged body.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 fire damage, Fatigued, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 fire damage, Drained 2. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "black-mercury": {
+        "Name": "Black Mercury",
+        "Description": "A forbidden heavy-metal mixture that spreads as black vapor or gleaming droplets and poisons body and mind alike.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, Clumsy 1, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, Clumsy 2, Stupefied 2."
+        }
+      },
+      "thought-eater-elixir": {
+        "Name": "Thought-Eater Elixir",
+        "Description": "This occult elixir binds fragments of memory to an alchemical carrier, making complex thought increasingly difficult to reach.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 mental damage, Stupefied 2. Concentrate actions require a DC 7 flat check.",
+          "Gate": "Alchemical concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 mental damage, Stupefied 2, Slowed 1. You cannot speak. Concentrate actions require a DC 9 flat check.",
+          "Gate": "Alchemical concentration interference"
+        }
+      },
+      "fleshweaver-serum": {
+        "Name": "Fleshweaver Serum",
+        "Description": "An experimental regenerative agent that does not heal injured tissue but instead grows new and increasingly incorrect structures.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 3d6 poison damage, Clumsy 2, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 4d6 poison damage, Clumsy 2, Drained 1. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "dragonbone-distillate": {
+        "Name": "Dragonbone Distillate",
+        "Description": "Distilled from rare mineralized dragon remains, this compound combines toxic salts with a violent thermal reaction.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 poison damage, 2d6 fire damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 poison damage, 2d6 fire damage, Sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 poison damage, 2d6 fire damage, Sickened 2."
+        }
+      },
+      "voidglass-poison": {
+        "Name": "Voidglass Poison",
+        "Description": "A weapon poison aged in black glass, combining ordinary toxins with occult void and making its victims difficult to restore.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 5d6 poison damage, 2d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 poison damage, 3d6 void damage, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 poison damage, 3d6 void damage, Drained 2. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "homunculus-rot": {
+        "Name": "Homunculus Rot",
+        "Description": "A failed nutrient medium for artificial life can become an aggressive disease that attempts to rewrite flesh according to alchemical blueprints.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Sickened 1, Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 4d6 poison damage, Sickened 2, Stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 5d6 poison damage, Sickened 2, Stupefied 2, Drained 1."
+        }
+      },
+      "phoenixbane-reagent": {
+        "Name": "Phoenixbane Reagent",
+        "Description": "This rare weapon poison was designed to weaken regenerative fire creatures: cold reagents smother recovery while the toxin drains the body.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 6d6 poison damage, 2d6 cold damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 6d6 poison damage, 3d6 cold damage, Slowed 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 7d6 poison damage, 3d6 cold damage, Slowed 1, Drained 1. Damage caused by this affliction cannot be healed."
+        }
+      },
+      "green-crucible-fever": {
+        "Name": "Green Crucible Fever",
+        "Description": "A catastrophic laboratory infection of living acids and mutagenic residues. Advanced cases consume tissue faster than it can heal.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 4d6 acid damage, Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 acid damage, Sickened 2, Drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 acid damage, Sickened 2, Drained 2. Damage caused by this affliction cannot be healed. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      },
+      "philosophers-blight": {
+        "Name": "Philosopher's Blight",
+        "Description": "An attempt to preserve insight alchemically instead created a disease that erodes speech, memory, and concentrated thought.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 5d6 mental damage, Stupefied 2. Concentrate actions require a DC 9 flat check.",
+          "Gate": "Alchemical concentration interference"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 6d6 mental damage, Stupefied 3, Slowed 1. You cannot speak. Concentrate actions require a DC 11 flat check. Certain conditions cannot fall below their minimum value during this stage.",
+          "Gate": "Alchemical concentration interference"
+        }
+      },
+      "apex-distillate": {
+        "Name": "Apex Distillate",
+        "Description": "The Apex Distillate is not one recipe but a name for a perfected laboratory killing agent: a virulent mixture that attacks body, vitality, and even magical healing at once.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Effects: 7d6 poison damage, Drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Effects: 8d6 poison damage, Drained 2, Slowed 1. Damage caused by this affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Effects: 8d6 poison damage, 4d6 void damage, Drained 3, death effect. You cannot regain Hit Points. Certain conditions cannot fall below their minimum value during this stage."
+        }
+      }
+    }
+  }
+}

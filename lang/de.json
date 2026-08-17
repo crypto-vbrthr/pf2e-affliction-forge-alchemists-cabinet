@@ -1,0 +1,563 @@
+{
+  "PF2E_AFFLICTION_AC": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Alchemist's Cabinet",
+      "Library": "Alchemistenkabinett",
+      "LibraryDescription": "Originale alchemistische Gifte, Laborseuchen und experimentelle Leiden mit semantischen Creature-Forge-Tags.",
+      "SyncFailed": "Das Alchemistenkabinett konnte seine Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "blinding-lime": {
+        "Name": "Blendkalk",
+        "Description": "Ein feinst gemahlenes alkalisches Laborpulver, das Augen und Atemwege reizt und im Feld oft aus zerbrechlichen Ampullen verstreut wird.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d4 Gift-Schaden, Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d4 Gift-Schaden, Kränkelnd 1, Geblendet."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1, Geblendet."
+        }
+      },
+      "numbtongue-tonic": {
+        "Name": "Taubzungentonikum",
+        "Description": "Ein bitteres Tonikum, das zuerst die Zunge, dann Sprache und klares Denken lähmt. In kleinen Dosen wurde es ursprünglich als schmerzstillender Zusatz entwickelt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Benommen 1. Du kannst nicht sprechen."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: Benommen 2. Du kannst nicht sprechen."
+        }
+      },
+      "copperbite-paste": {
+        "Name": "Kupferbisspaste",
+        "Description": "Eine grünlich schimmernde Waffenpaste, deren Metallsalze Nerven und Gleichgewicht angreifen, sobald sie in eine Wunde gelangen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1, Kränkelnd 1."
+        }
+      },
+      "sombercap-distillate": {
+        "Name": "Düsterhutdestillat",
+        "Description": "Ein konzentrierter Pilzauszug, der Müdigkeit und geistige Trägheit hervorruft. Die unverdünnte Variante ist bei skrupellosen Tavernenmischern berüchtigt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Erschöpft, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: Verlangsamt 1, Benommen 1."
+        }
+      },
+      "emberglass-coating": {
+        "Name": "Glutglasbeschichtung",
+        "Description": "Diese durchsichtige Waffenbeschichtung kristallisiert in der Wunde und setzt dort scharf reagierende Hitze frei.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Feuer-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Feuer-Schaden, 1d4 anhaltender Feuer-Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Feuer-Schaden, 1d4 anhaltender Feuer-Schaden, Unbeholfen 1."
+        }
+      },
+      "hushmist-ampoule": {
+        "Name": "Stillnebelampulle",
+        "Description": "Beim Zerbrechen bildet die Ampulle einen schweren grauen Nebel, der den Hals anschwellen lässt und selbst einen Ruf zur heiseren Anstrengung macht.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1. Du kannst nicht sprechen."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 2. Du kannst nicht sprechen."
+        }
+      },
+      "nerve-lacquer": {
+        "Name": "Nervenlack",
+        "Description": "Ein dünner schwarzer Lack für Klingen und Geschosse, der die Feinmotorik rasch zerstört und bei hoher Dosis ganze Bewegungsabläufe ausbremst.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 1d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "verdigris-fever": {
+        "Name": "Grünspanfieber",
+        "Description": "Eine chronische Vergiftung durch schlecht stabilisierte alchemistische Metallverbindungen. Werkstätten mit alten Destillen können ganze Belegschaften damit infizieren.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 1d6 Gift-Schaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "blackout-resin": {
+        "Name": "Ausfallharz",
+        "Description": "Ein klebriges Waffengift, das Sinnesverarbeitung und Erinnerung in kurzen schwarzen Lücken verschwimmen lässt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 5.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        }
+      },
+      "mutagen-bloom": {
+        "Name": "Mutagenblüte",
+        "Description": "Ein gescheitertes Mutagen kann als schimmernder Belag weiterleben und bei Berührung unkontrollierte körperliche Veränderungen auslösen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: Unbeholfen 1, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 2, Kränkelnd 1."
+        }
+      },
+      "ghostsalt-injection": {
+        "Name": "Geistsalzinjektion",
+        "Description": "Diese Injektionslösung enthält okkult behandeltes Salz, das Lebensessenz aus dem Körper zieht und zugleich das Fleisch vergiftet.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d4 Geist-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, 1d6 Geist-Schaden, Ausgelaugt 1."
+        }
+      },
+      "smokeserpent-compound": {
+        "Name": "Rauchschlangenkompositum",
+        "Description": "Alchemisten imitieren mit diesem Waffengift die rasche Lähmwirkung exotischer Schlangengifte, ohne eine lebende Quelle zu benötigen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 1, Verlangsamt 1."
+        }
+      },
+      "marrow-solvent": {
+        "Name": "Marklöser",
+        "Description": "Ein ätzendes Waffengift, das nach dem Eindringen ins Gewebe weiter reagiert und Muskeln sowie Knochenhaut angreift.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Säure-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Säure-Schaden, 1d6 anhaltender Säure-Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Säure-Schaden, 1d6 anhaltender Säure-Schaden, Geschwächt 1."
+        }
+      },
+      "glasslung-culture": {
+        "Name": "Glaslunge-Kultur",
+        "Description": "Ein gezüchteter alchemistischer Sporenstamm legt sich wie feiner Staub in die Lunge und macht jede Heilung der entzündeten Gewebe schwieriger.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 1, Erschöpft."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "clockwork-bile": {
+        "Name": "Uhrwerkgalle",
+        "Description": "Ein elektrisch geladenes Schmier- und Ätzgemisch aus Automatenlaboren. Für organische Körper ist es ebenso ungeeignet wie für schlecht isolierte Konstrukte.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Elektrizität-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Elektrizität-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Elektrizität-Schaden, Unbeholfen 2, Verlangsamt 1."
+        }
+      },
+      "bloodbreaker-serum": {
+        "Name": "Blutbrecherserum",
+        "Description": "Diese rote Waffenlösung stört die Blutbildung und lässt selbst kleine Verletzungen den Körper ungewöhnlich stark auszehren.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Ausgelaugt 2."
+        }
+      },
+      "prism-toxin": {
+        "Name": "Prismengift",
+        "Description": "Ein arkan stabilisiertes Waffengift, dessen wechselnde Kristalle bei jeder Reaktion andere elementare Entladungen freisetzen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 2d6 Gift-Schaden, 1d6 Elektrizität-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, 1d6 Feuer-Schaden, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, 1d6 Kälte-Schaden, Unbeholfen 2."
+        }
+      },
+      "mimic-spore-suspension": {
+        "Name": "Mimiksporen-Suspension",
+        "Description": "Diese Suspension zwingt gezüchtete Sporen zu aggressivem Wachstum und lässt befallenes Gewebe fremde Strukturen nachahmen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 2d6 Gift-Schaden, Kränkelnd 1, Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 3d6 Gift-Schaden, Kränkelnd 2, Unbeholfen 1, Ausgelaugt 1."
+        }
+      },
+      "kingmaker-poison": {
+        "Name": "Königsmachergift",
+        "Description": "Ein diskretes Hofgift für vergiftete Klingen. Es schwächt zuerst die Muskulatur und greift dann die Lebenskraft selbst an.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Geschwächt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, Geschwächt 2, Ausgelaugt 1."
+        }
+      },
+      "red-tide-reagent": {
+        "Name": "Rotflutreagenz",
+        "Description": "Ein blutrotes Reagenz, das über Haut oder Nahrung aufgenommen wird und den Kreislauf in einen fiebrigen Zusammenbruch treibt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        }
+      },
+      "nullsilver-catalyst": {
+        "Name": "Nullsilberkatalysator",
+        "Description": "Eine Waffenbeschichtung aus versilberten Salzen und arkanen Hemmstoffen, die Gedanken und Konzentration so zuverlässig stört wie Nerven.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 3d6 Mental-Schaden, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 7.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Konzentrieren-Handlungen erfordern einen Flat Check SG 7.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        }
+      },
+      "marrowfire-plague": {
+        "Name": "Markfeuerseuche",
+        "Description": "Eine absichtlich gezüchtete Laborseuche, deren Reaktion im Knochenmark Hitze erzeugt und die Regeneration des geschädigten Körpers behindert.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Feuer-Schaden, Erschöpft, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Feuer-Schaden, Ausgelaugt 2. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "black-mercury": {
+        "Name": "Schwarzquecksilber",
+        "Description": "Eine verbotene Schwermetallmischung, die sich als schwarzer Dampf oder glänzende Tropfen verbreitet und Körper wie Geist vergiftet.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Gift-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, Unbeholfen 1, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, Unbeholfen 2, Benommen 2."
+        }
+      },
+      "thought-eater-elixir": {
+        "Name": "Gedankenfresserelixier",
+        "Description": "Dieses okkulte Elixier bindet Erinnerungsfragmente an einen alchemistischen Trägerstoff und macht komplexe Gedanken zunehmend schwer erreichbar.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Mental-Schaden, Benommen 2. Konzentrieren-Handlungen erfordern einen Flat Check SG 7.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Mental-Schaden, Benommen 2, Verlangsamt 1. Du kannst nicht sprechen. Konzentrieren-Handlungen erfordern einen Flat Check SG 9.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        }
+      },
+      "fleshweaver-serum": {
+        "Name": "Fleischweberserum",
+        "Description": "Ein experimentelles Regenerationsmittel, das verletztes Gewebe nicht heilt, sondern immer neue und falsche Strukturen wachsen lässt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 3d6 Gift-Schaden, Unbeholfen 2, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 4d6 Gift-Schaden, Unbeholfen 2, Ausgelaugt 1. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "dragonbone-distillate": {
+        "Name": "Drachenknochendestillat",
+        "Description": "Aus seltenen mineralisierten Drachenresten gewonnen, kombiniert dieses Destillat toxische Salze mit einer heftigen thermischen Reaktion.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Gift-Schaden, 2d6 Feuer-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Gift-Schaden, 2d6 Feuer-Schaden, Kränkelnd 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Gift-Schaden, 2d6 Feuer-Schaden, Kränkelnd 2."
+        }
+      },
+      "voidglass-poison": {
+        "Name": "Leerglasgift",
+        "Description": "In schwarzem Glas gereiftes Waffengift verbindet gewöhnliche Toxine mit okkulter Leere und erschwert die Heilung der von ihm ausgezehrten Opfer.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 5d6 Gift-Schaden, 2d6 Leere-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Gift-Schaden, 3d6 Leere-Schaden, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Gift-Schaden, 3d6 Leere-Schaden, Ausgelaugt 2. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "homunculus-rot": {
+        "Name": "Homunkulusfäule",
+        "Description": "Ein fehlgeschlagener Nährbrei für künstliches Leben kann sich in eine aggressive Krankheit verwandeln, die Fleisch nach alchemistischen Bauplänen umzuschreiben versucht.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Kränkelnd 1, Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 4d6 Gift-Schaden, Kränkelnd 2, Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 5d6 Gift-Schaden, Kränkelnd 2, Benommen 2, Ausgelaugt 1."
+        }
+      },
+      "phoenixbane-reagent": {
+        "Name": "Phönixbannreagenz",
+        "Description": "Dieses seltene Waffengift wurde entwickelt, um regenerative Feuerwesen zu schwächen: kalte Reagenzien ersticken Heilung, während das Gift den Körper auszehrt.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 6d6 Gift-Schaden, 2d6 Kälte-Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 6d6 Gift-Schaden, 3d6 Kälte-Schaden, Verlangsamt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 7d6 Gift-Schaden, 3d6 Kälte-Schaden, Verlangsamt 1, Ausgelaugt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        }
+      },
+      "green-crucible-fever": {
+        "Name": "Grüntiegelfieber",
+        "Description": "Eine katastrophale Laborinfektion aus lebenden Säuren und mutagenen Reststoffen. Fortgeschrittene Fälle greifen Gewebe schneller an, als es heilen kann.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 4d6 Säure-Schaden, Kränkelnd 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Säure-Schaden, Kränkelnd 2, Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Säure-Schaden, Kränkelnd 2, Ausgelaugt 2. Von diesem Leiden verursachter Schaden kann nicht geheilt werden. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      },
+      "philosophers-blight": {
+        "Name": "Philosophenfäule",
+        "Description": "Der Versuch, Erkenntnis alchemistisch zu konservieren, erschuf stattdessen eine Krankheit, die Sprache, Gedächtnis und konzentriertes Denken zersetzt.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 5d6 Mental-Schaden, Benommen 2. Konzentrieren-Handlungen erfordern einen Flat Check SG 9.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 6d6 Mental-Schaden, Benommen 3, Verlangsamt 1. Du kannst nicht sprechen. Konzentrieren-Handlungen erfordern einen Flat Check SG 11. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken.",
+          "Gate": "Alchemistische Konzentrationsstörung"
+        }
+      },
+      "apex-distillate": {
+        "Name": "Apex-Destillat",
+        "Description": "Das Apex-Destillat ist kein einzelnes Rezept, sondern die Bezeichnung für ein vollendetes Laborvernichtungsmittel: ein virulentes Gemisch, das Körper, Lebenskraft und selbst magische Heilung zugleich angreift.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Effekte: 7d6 Gift-Schaden, Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Effekte: 8d6 Gift-Schaden, Ausgelaugt 2, Verlangsamt 1. Von diesem Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Effekte: 8d6 Gift-Schaden, 4d6 Leere-Schaden, Ausgelaugt 3, Todeseffekt. Du kannst keine Trefferpunkte zurückerlangen. Bestimmte Zustände können während dieser Phase nicht unter ihren Mindestwert sinken."
+        }
+      }
+    }
+  }
+}
