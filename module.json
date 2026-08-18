@@ -48,5 +48,8 @@
     }
   ],
   "license": "LICENSE",
-  "readme": "README.md"
+  "readme": "README.md",
+  "url": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-alchemists-cabinet",
+  "manifest": "https://raw.githubusercontent.com/crypto-vbrthr/pf2e-affliction-forge-alchemists-cabinet/main/module.json",
+  "download": "https://github.com/crypto-vbrthr/pf2e-affliction-forge-alchemists-cabinet/releases/download/0.1.0/pf2e-affliction-forge-alchemists-cabinet.zip"
 }
